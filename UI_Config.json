@@ -1,0 +1,52 @@
+{
+  "output_file": "config.json",
+  "initiate_command": {
+    "type": "textbox",
+    "value": "!duel",
+    "label": "Initiate Command",
+    "tooltip": "Name of the command",
+    "group": "General"
+  },
+  "accept_command": {
+    "type": "textbox",
+    "value": "!accept",
+    "label": "Accept Command",
+    "tooltip": "Name of the command",
+    "group": "General"
+  },
+  "deny_command": {
+    "type": "textbox",
+    "value": "!decline",
+    "label": "Deny Command",
+    "tooltip": "Name of the command",
+    "group": "General"
+  },
+  "min_bet": {
+    "type": "numberbox",
+    "value": 0,
+    "label": "Minimum Bet",
+    "tooltip": "Set the minimum duel bet!",
+    "group": "General"
+  },
+  "cooldown": {
+    "type": "numberbox",
+    "value": 30,
+    "label": "Command Cooldown",
+    "tooltip": "Set the default cost for this command.",
+    "group": "General"
+  },
+  "permission": {
+    "type": "dropdown",
+    "value": "Everyone",
+    "items": [
+      "Everyone",
+      "Regular",
+      "Subscriber",
+      "Moderator",
+      "Editor"
+    ],
+    "label": "Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "General"
+  }
+}
