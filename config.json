@@ -1,8 +1,0 @@
-{
-  "initiate_command": "!duel",
-  "accept_command": "!accept",
-  "deny_command": "!decline",
-  "min_bet": 0,
-  "cooldown": 10,
-  "permission": "Everyone"
-}
